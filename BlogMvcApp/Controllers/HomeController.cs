@@ -7,7 +7,7 @@ using System.Web.Mvc;
 
 namespace BlogMvcApp.Controllers
 {
-    public class HomeController : Controller
+    public class HomeController : Controller 
     {
         private BlogContext context = new BlogContext();
         // GET: Home
